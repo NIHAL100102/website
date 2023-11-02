@@ -43,7 +43,7 @@ export default function Home() {
                 <path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1168.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z" />
               </svg>
             </a>
-        
+
             <a href="https://twitter.com/nihal_devadiga" target="_blank">
               <svg
                 viewBox="0 0 1024 1024"
@@ -64,14 +64,50 @@ export default function Home() {
               </svg>
             </a>
           </div>
+          <div className="pt-8 pb-4 text-2xl font-extrabold leading-8 tracking-tight ">
+
+            <p className=" font-mono">
+              Contact Me:
+            </p>
+            <div className="flex items-center pt-2 ">
+              <svg
+                viewBox="0 0 1024 1024"
+                fill="currentColor"
+                height="1em"
+                width="1em"
+                className="w-5 h-5 inline-block  text-black dark:bg-white"
+              >
+
+                <path d="M877.1 238.7L770.6 132.3c-13-13-30.4-20.3-48.8-20.3s-35.8 7.2-48.8 20.3L558.3 246.8c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l89.6 89.7a405.46 405.46 0 01-86.4 127.3c-36.7 36.9-79.6 66-127.2 86.6l-89.6-89.7c-13-13-30.4-20.3-48.8-20.3a68.2 68.2 0 00-48.8 20.3L132.3 673c-13 13-20.3 30.5-20.3 48.9 0 18.5 7.2 35.8 20.3 48.9l106.4 106.4c22.2 22.2 52.8 34.9 84.2 34.9 6.5 0 12.8-.5 19.2-1.6 132.4-21.8 263.8-92.3 369.9-198.3C818 606 888.4 474.6 910.4 342.1c6.3-37.6-6.3-76.3-33.3-103.4zm-37.6 91.5c-19.5 117.9-82.9 235.5-178.4 331s-213 158.9-330.9 178.4c-14.8 2.5-30-2.5-40.8-13.2L184.9 721.9 295.7 611l119.8 120 .9.9 21.6-8a481.29 481.29 0 00285.7-285.8l8-21.6-120.8-120.7 110.8-110.9 104.5 104.5c10.8 10.8 15.8 26 13.3 40.8z" />
+              </svg>
+              <p className="text-lg font-normal ml-1 pb-0  xl:col-span-2">--{'>'} 8296996945
+              </p>
+            </div>
+            <div className="flex items-center pt-2 ">
+            <svg
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                height="1em"
+                width="1em"
+                className="w-5 h-5 inline-block  text-black dark:bg-white"
+              >
+                <path d="M18.73 5.41l-1.28 1L12 10.46 6.55 6.37l-1.28-1A2 2 0 002 7.05v11.59A1.36 1.36 0 003.36 20h3.19v-7.72L12 16.37l5.45-4.09V20h3.19A1.36 1.36 0 0022 18.64V7.05a2 2 0 00-3.27-1.64z" />
+              </svg>
+              <p className="text-lg font-normal ml-1 pb-0  xl:col-span-2">--{'>'} nihaljdevadiga@gmail.com
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="prose max-w-none prose-lg pt-8 pb-7 dark:prose-invert xl:col-span-2">
           <p className=" font-mono">
-            Hey everyone my name is Nhal, I am 21 years old and i am a currently pursuing Bachelors in Computer Science Engineering in St Joseph Engineering College, Mangalore, Karnataka.
+            Hey everyone my name is Nihal, I am 21 years old and i am a currently pursuing Bachelors in Computer Science Engineering in St Joseph Engineering College, Mangalore, Karnataka.
           </p>
           <p className=" font-mono">
-            This is my portfolio which will be guiding you through my blogs and my projects. If you wished to contact me, then do visit the contact section to get connected.
+            This is my portfolio build using Next.js as framework, Tailwind CSS for styling, Sanity.io , Prisma as server-side library and TypeScript for the development of this website.
+          </p>
+          <p className=" font-mono">
+            You can check out for my projects in Project section. In my project section, you can visit the websites of my projects directyly, but if i have not deployed them, then i have provided the github link to that project. Also do visit the GuestBook section and enter your name so that i can know my visitors hehe ;)
           </p>
           <br />
           <h2 className=" font-extrabold">Hobbies</h2>
@@ -79,6 +115,7 @@ export default function Home() {
             I am a cricket and football enthusiastic. Die hard fan of Manchester City FC. Love playing sports (cricket,football,table tennis) at my free time. Along with watching sports, i like doing analysis on stats.
           </p>
         </div>
+
       </div>
     </div>
   );
